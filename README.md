@@ -3,8 +3,10 @@
 Multi-Linear-Regression- Problem - 
 
 1 Consider only the below columns and prepare a prediction model for predicting Price. 
+
 Corolla&lt;-
-Corolla[c("Price","Age_08_04","KM","HP","cc","Doors","Gears","Quarterly_Tax","Weight")] 
+Corolla[c("Price","Age_08_04","KM","HP","cc","Doors","Gears","Quarterly_Tax","Weight")]
+
 Model -- model of the car Price -- Offer Price in EUROs 
 Age_08_04 -- Age in months as in August 2004 
 Mfg_Month -- Manufacturing month (1-12) 
@@ -24,7 +26,9 @@ Weight -- Weight in Kilograms
 Mfr_Guarantee -- Within Manufacturer's Guarantee period (Yes=1, No=0) 
 BOVAG_Guarantee -- BOVAG (Dutch dealer network) 
 Guarantee (Yes=1, No=0) Guarantee_Period -- Guarantee period in months 
+
 ABS -- Anti-Lock Brake System (Yes=1, No=0) Airbag_1 -- Driver_Airbag (Yes=1, No=0) Airbag_2 --Passenger Airbag (Yes=1, No=0) Airco -- Airconditioning (Yes=1, No=0) Automatic_airco -- Automatic Airconditioning (Yes=1, No=0) Boardcomputer -- Boardcomputer (Yes=1, No=0) CD_Player -- CD Player (Yes=1, No=0) Central_Lock -- Central Lock (Yes=1, No=0) Powered_Windows -- Powered Windows (Yes=1, No=0)
+
 Power_Steering -- Power Steering (Yes=1, No=0) Radio -- Radio (Yes=1, No=0) 
 Mistlamps -- Mistlamps (Yes=1, No=0) Sport_Model -- Sport Model (Yes=1, No=0)
 Backseat_Divider -- Backseat Divider (Yes=1, No=0) Metallic_Rim --Metallic Rim (Yes=1, No=0) Radio_cassette -- Radio Cassette (Yes=1, No=0) 
@@ -33,7 +37,11 @@ Tow_Bar -- Tow Bar (Yes=1, No=0)
 Problem - 2
 
 Prepare a prediction model for profit of 50_startups data. Do transformations for getting better predictions of profit and make a table containing R^2 value for each prepared model. 
+
 R&amp;D Spend -- Research and devolop spend in the past few years
+
 Administration -- spend on administration in the past few years Marketing 
+
 Spend -- spend on Marketing in the past few years State -- states from which data is collected
+
 Profit -- profit of each state in the past few years
