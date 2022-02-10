@@ -3,7 +3,8 @@
 Multi-Linear-Regression- Problem - 
 
 1 Consider only the below columns and prepare a prediction model for predicting Price. 
-Corolla&lt;-Corolla[c("Price","Age_08_04","KM","HP","cc","Doors","Gears","Quarterly_Tax","Weight")] 
+Corolla&lt;-
+Corolla[c("Price","Age_08_04","KM","HP","cc","Doors","Gears","Quarterly_Tax","Weight")] 
 Model -- model of the car Price -- Offer Price in EUROs 
 Age_08_04 -- Age in months as in August 2004 
 Mfg_Month -- Manufacturing month (1-12) 
